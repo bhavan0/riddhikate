@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 import FloatingBalloons from './FloatingBalloons'
 
 const Hero = () => {
@@ -52,25 +52,22 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-4 mb-12">
             <a
-              href="#"
+              href="https://www.instagram.com/riddhikate_15"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white/80 backdrop-blur-sm p-4 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-olive-dark hover:text-olive"
               aria-label="Instagram"
             >
               <FaInstagram size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/riddhi-kate"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white/80 backdrop-blur-sm p-4 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-olive-dark hover:text-olive"
               aria-label="LinkedIn"
             >
               <FaLinkedin size={24} />
-            </a>
-            <a
-              href="#"
-              className="bg-white/80 backdrop-blur-sm p-4 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-olive-dark hover:text-olive"
-              aria-label="YouTube"
-            >
-              <FaYoutube size={24} />
             </a>
           </div>
 

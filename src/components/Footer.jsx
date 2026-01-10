@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaYoutube, FaHeart } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin, FaHeart } from 'react-icons/fa'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -35,25 +35,22 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4 mb-10">
               <a
-                href="#"
+                href="https://www.instagram.com/riddhikate_15"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-4 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg"
                 aria-label="Instagram"
               >
                 <FaInstagram size={22} className="text-white" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/riddhi-kate"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-4 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin size={22} className="text-white" />
-              </a>
-              <a
-                href="#"
-                className="bg-white/10 hover:bg-white/20 p-4 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                aria-label="YouTube"
-              >
-                <FaYoutube size={22} className="text-white" />
               </a>
             </div>
 

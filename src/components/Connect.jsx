@@ -1,11 +1,11 @@
-import { FaInstagram, FaLinkedin, FaYoutube, FaEnvelope, FaPaperPlane } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin, FaEnvelope, FaPaperPlane } from 'react-icons/fa'
 
 const socialLinks = [
   {
     icon: FaInstagram,
     name: 'Instagram',
-    handle: '@riddhikate',
-    href: '#',
+    handle: '@riddhikate_15',
+    href: 'https://www.instagram.com/riddhikate_15',
     bgGradient: 'from-pink-500 via-purple-500 to-orange-400',
     hoverColor: 'group-hover:text-pink-500',
   },
@@ -13,17 +13,9 @@ const socialLinks = [
     icon: FaLinkedin,
     name: 'LinkedIn',
     handle: 'Riddhi Kate',
-    href: '#',
+    href: 'https://www.linkedin.com/in/riddhi-kate',
     bgGradient: 'from-blue-600 to-blue-700',
     hoverColor: 'group-hover:text-blue-600',
-  },
-  {
-    icon: FaYoutube,
-    name: 'YouTube',
-    handle: 'Riddhi Kate PT',
-    href: '#',
-    bgGradient: 'from-red-500 to-red-600',
-    hoverColor: 'group-hover:text-red-500',
   },
 ]
 
@@ -59,7 +51,7 @@ const Connect = () => {
         </div>
 
         {/* Social Links */}
-        <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
+        <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-12">
           {socialLinks.map((social, index) => (
             <a
               key={index}
@@ -84,10 +76,10 @@ const Connect = () => {
             <div className="text-left">
               <p className="text-sm text-gray-500">For collaborations & inquiries</p>
               <a
-                href="mailto:hello@riddhikate.com"
+                href="mailto:riddhikate9@gmail.com"
                 className="text-olive-dark font-semibold hover:text-olive transition-colors text-lg"
               >
-                hello@riddhikate.com
+                riddhikate9@gmail.com
               </a>
             </div>
           </div>
