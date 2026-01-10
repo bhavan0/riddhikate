@@ -18,18 +18,17 @@ const About = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image Placeholder */}
+          {/* Profile Image */}
           <div className="flex justify-center">
             <div className="relative">
               {/* Decorative ring */}
               <div className="absolute inset-0 w-72 h-72 sm:w-80 sm:h-80 bg-gradient-to-br from-olive-light to-olive rounded-full animate-pulse opacity-20 scale-110"></div>
-              <div className="relative w-72 h-72 sm:w-80 sm:h-80 bg-gradient-to-br from-olive-light/40 to-cream rounded-full flex items-center justify-center border-4 border-white shadow-2xl">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-olive/20 rounded-full mx-auto mb-3 flex items-center justify-center">
-                    <span className="text-3xl">📷</span>
-                  </div>
-                  <span className="text-olive-dark font-medium">Photo Coming Soon</span>
-                </div>
+              <div className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-full border-4 border-white shadow-2xl overflow-hidden">
+                <img
+                  src="/Riddhi_Profile.jpeg"
+                  alt="Riddhi Kate"
+                  className="w-full h-full object-cover"
+                />
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-4 -right-4 bg-olive-dark text-white px-4 py-2 rounded-full shadow-lg">
