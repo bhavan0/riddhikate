@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Blog from './pages/Blog'
 import HomeBlog from './components/HomeBlog'
 import DancePainIsInformation from './pages/blogs/DancePainIsInformation'
+import CloudflareAnalytics from './components/CloudflareAnalytics'
 
 // Home Page Component
 const Home = () => (
@@ -23,6 +24,7 @@ const Home = () => (
 function App() {
   return (
     <div className="min-h-screen">
+      <CloudflareAnalytics />
       <Navbar />
       <main>
         <Routes>
