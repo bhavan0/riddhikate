@@ -9,6 +9,7 @@ import Blog from './pages/Blog'
 import HomeBlog from './components/HomeBlog'
 import DancePainIsInformation from './pages/blogs/DancePainIsInformation'
 import CloudflareAnalytics from './components/CloudflareAnalytics'
+import SilenceIsYourReason from './pages/blogs/SilenceIsYourReason'
 
 // Home Page Component
 const Home = () => (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/dance-pain-is-information" element={<DancePainIsInformation />} />
+          <Route path="/blog/silence-is-your-reason" element={<SilenceIsYourReason />} />
         </Routes>
       </main>
       <Footer />

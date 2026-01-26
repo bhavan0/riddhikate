@@ -7,5 +7,14 @@ export const blogData = [
     category: "Dance Medicine",
     image: "/dance-blog-hero.png",
     path: "/blog/dance-pain-is-information"
+  },
+  {
+    id: 2,
+    title: "Sometimes silence is your “why” for doing what you do",
+    excerpt: "Sometimes silence is your reason for doing what you do. When staying quiet prevents things from escalating. When pausing protects your peace.",
+    date: "January 25, 2026",
+    category: "Mind-Body Connection",
+    image: "/silence-is-your-reason.jpeg",
+    path: "/blog/silence-is-your-reason"
   }
 ];
